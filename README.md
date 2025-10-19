@@ -7,15 +7,16 @@ It contains over 41,000 CAD modeling videos with synchronized user actions, enab
 
 If you find **VideoCAD** useful for your work, please cite:
 
+```bibtex
 @inproceedings{
-    man2025videocad,
-    title={Video{CAD}: A Large-Scale Video Dataset for Learning {UI} Interactions and 3D Reasoning from {CAD} Software},
-    author={Brandon Man and Ghadi Nehme and Md Ferdous Alam and Faez Ahmed},
-    booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems Datasets and Benchmarks Track},
-    year={2025},
-    url={https://arxiv.org/abs/2505.24838}
+man2025videocad,
+title={Video{CAD}: A Large-Scale Video Dataset for Learning {UI} Interactions and 3D Reasoning from {CAD} Software},
+author={Brandon Man and Ghadi Nehme and Md Ferdous Alam and Faez Ahmed},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems Datasets and Benchmarks Track},
+year={2025},
+url={https://arxiv.org/abs/2505.24838}
 }
-
+```
 
 ---
 
