@@ -173,24 +173,19 @@
 
 <!-- VIDEO SECTION -->
 <section class="section">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Video</h2>
+  <div class="container is-max-desktop has-text-centered">
+    <h2 class="title is-3">Video</h2>
 
-        <div class="publication-video"
-             style="position: relative; padding-bottom: 56.25%; height: 0;">
-          <iframe
-            src="https://www.youtube.com/embed/1C6KqY-3Okw?rel=0&showinfo=0"
-            frameborder="0"
-            allow="autoplay; encrypted-media"
-            allowfullscreen
-            style="position: absolute; top: 0; left: 0;
-                   width: 100%; height: 100%; border-radius: 8px;">
-          </iframe>
-        </div>
-
-      </div>
+    <div class="publication-video"
+          style="position: relative; padding-bottom: 56.25%; height: 0;">
+      <iframe
+        src="https://www.youtube.com/embed/1C6KqY-3Okw?rel=0&showinfo=0"
+        frameborder="0"
+        allow="autoplay; encrypted-media"
+        allowfullscreen
+        style="position: absolute; top: 0; left: 0;
+                width: 100%; height: 100%; border-radius: 8px;">
+      </iframe>
     </div>
   </div>
 </section>
@@ -231,9 +226,38 @@
     <h2 class="title is-3">Dataset Generation Pipeline</h2>
     <img src="./static/images/pipeline.png" alt="VideoCAD pipeline"
          style="max-width:100%; border-radius:8px; margin-bottom:1rem;">
-    <p class="subtitle mt-3">
+    <p>
       VIDEOCAD dataset pipeline: human-authored CAD sequences are converted into UI instructions and executed via a rule-based bot to record videos. Quality filtering (DINOv2), keyframe extraction, and action alignment produce structured video-action pairs.
     </p>
+  </div>
+</section>
+
+
+
+<!-- VIDEOCADFORMER -->
+<section class="section">
+  <div class="container is-max-desktop has-text-centered">
+    <h2 class="title is-3">VideoCADFormer</h2>
+    <div class="content has-text-justified">
+      <p>
+        Using VideoCAD, we develop <strong>VideoCADFormer</strong>, a <strong>causal autoregressive transformer model</strong> that predicts low-level CAD UI actions directly from images using behavior cloning.
+      </p>
+      <p>
+        Conditioned on a target CAD image and a window of past frames, the model outputs the next action and can plan long-horizon CAD sequences.
+      </p>
+    </div>
+
+    <div class="publication-video"
+          style="position: relative; padding-bottom: 56.25%; height: 0; margin-top: 2rem;">
+      <iframe
+        src="https://www.youtube.com/embed/GAq_vPMv_cA?start=7&rel=0&showinfo=0"
+        frameborder="0"
+        allow="autoplay; encrypted-media"
+        allowfullscreen
+        style="position: absolute; top: 0; left: 0;
+                width: 100%; height: 100%; border-radius: 8px;">
+      </iframe>
+    </div>
   </div>
 </section>
 
